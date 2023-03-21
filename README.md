@@ -76,7 +76,7 @@ The possibility of being able to delete a specific message has also been added i
 
 <br>
 <div align="center">
-<img src="./screenshots/messages.png" width="300" align="center" >
+<img src="./screenshots/messages.png" width="200" align="center" >
 </div>
 <br>
 
