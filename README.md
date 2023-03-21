@@ -1,66 +1,91 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<br>
+
+<p align="center"><a href="https://github.com/MicheleAbategiovanni" target="_blank"><img src="logo.png" width="150" alt="Michele Abategiovanni Logo"></a></p>
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/badge/Framework-Vue.js-green" alt="Vue.js"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/badge/boostrap-%5E5.2.2-blue" alt="bootstrap 5.2.2"></a>
 </p>
 
-## About Laravel
+<br>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<div align="center">
+<img src="./screenshots/dashboard.png" width="300" align="center" >
+</div>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<br>
+<br>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+# 🏠 <strong>HireHouse - Back-End Project</strong>
 
-## Learning Laravel
+<strong>Hirehouse</strong> is a project based on the famous <strong>AirBnb Web App</strong>. <br>
+This project was <strong>made in team</strong>, where you will find the thanks at the bottom, in three weeks of development. <br>
+It was created through an initial analysis of the <strong>DataBase</strong> we wanted to create, and then proceeded to write the code. <br>
+The technologies used were: <strong>PHP</strong>, <strong>Laravel</strong>, <strong>MySQL</strong>, <strong>CSS</strong>, <strong>SASS</strong>, <strong>BootStrap</strong>, <strong>JavaScript</strong>,  <strong>TomTom</strong>,  <strong>Braintree</strong> . <br>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## <strong>About Project</strong>
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+This project shows the back-end part of our application, which communicates through <strong>APIs</strong>, to the front-end part.
+In the back-end part, we have the possibility of being able to register and possibly insert apartments within our Application.
+The main functions that a user can perform are:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+-   <strong>Create / Modify / View / Delete</strong> of one or more apartments.
+-   <strong>Receipt of messages</strong> from users for each of their apartments, in a <strong>special responsive dashboard</strong>.
+-   The possibility of <strong>sponsoring</strong> an apartment for a certain pre-established range of hours.
 
-## Laravel Sponsors
+<strong>Obviously, the application has also been designed above all to make it accessible to the user when navigating through a telephone, tablet or PC</strong>.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+<br>
 
-### Premium Partners
+### <strong>Apartment Management</strong>
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+When the user logs in, he will be redirected to a dashboard.
+The dashboard has been designed to immediately highlight all the user's apartments published, highlighting the main information such as the visibility of the ad and the details of his account, the relative number of apartments published and the messages he has in total.
+During the creation or modification of the apartment, the owner user will have the possibility to enter the most used fields, such as, for example, address, price per night, image, services, etc.
+In these two phases we will have a form available to fill out, in which the possibility of <strong>writing the address</strong> and having the <strong>TomTom autocomplete</strong> flanked by the map that will mark the exact point has been inserted.
+On <strong>all input</strong> fields there will always be a <strong>Client-Side validation</strong> active, to verify that the fields entered by the user are correct and that they can be saved to the DB. <br>
+In the creation phase, if the user does not insert his own photo of the apartment, it will be generated by default. <br>
+The owner of the apartment will also have the possibility to definitively cancel his own apartment from our Application.
 
-## Contributing
+<br>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### <strong>Show</strong>
 
-## Code of Conduct
+On the apartment show page, we will have all the information relating to the apartment available, with the addition of three buttons at the top, which are:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+-   <strong>Sponsorship</strong>
+-   <strong>Edit</strong>
+-   <strong>Messages</strong>
 
-## Security Vulnerabilities
+The <strong>sponsorship</strong> will redirect us to a page where the owner of the apartment will choose which type of sponsorship to apply to his apartment and once chosen, we will have a checkout page where he will enter his payment card details.
+Once the payment has been made and everything will be successful, the user will be brought back to the apartment show where he can effectively view the relative sponsorship applied.
+The user cannot carry out more than one sponsorship until the paid one ends.
+As soon as the payment has been correctly registered, your apartment will be visible in the front-end part of the Application in the respective positions to give it prominence.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<br>
 
-## License
+<div align="center">
+<img src="./screenshots/checkout.png" width="300" align="center" >
+</div>
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<br>
+
+The <strong>messages</strong> toggle indicates to the user through a notification badge how many messages we have for that apartment.
+By interacting with it, you will be directed to a page containing the relative messages received with all the information communicated, ie name, email, content and date of sending.
+The possibility of being able to delete a specific message has also been added if the user wishes to do so.
+
+<br>
+<div align="center">
+<img src="./screenshots/messages.png" width="300" align="center" >
+</div>
+<br>
+
+## <strong>Thanks to❤️</strong>
+
+Last but not least, thanks go to my team, which has always been close-knit and collectively ready for the realization of this project and for solving the various difficulties encountered and the bugs fixed.
+Here you will find all their links:
+
+<h3><a href="https://github.com/HelgaToshkollari">Helga Toshkollari</a></h3>
+<h3><a href="https://github.com/ManganiBiagio">Biagio Mangani</a></h3> 
+<h3><a href="https://github.com/PiersilvioPellegrini">Piersilvio Pellegrini</a></h3> 
+<h3><a href="https://github.com/Sofia-Citrini">Sofia Citrini</a></h3>
