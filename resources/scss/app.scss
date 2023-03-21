@@ -1,0 +1,126 @@
+@use '@fortawesome/fontawesome-free/css/all.min.css';
+
+@import url(https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.23.0/maps/maps.css);
+@import url(https://api.tomtom.com/maps-sdk-for-web/6.x/6.23.0//examples/pages/examples/assets/ui-library/index.css);
+@import url(https://api.tomtom.com/maps-sdk-for-web/cdn/plugins/SearchBox/3.2.0//SearchBox.css);
+@import url(https://api.tomtom.com/maps-sdk-for-web/6.x/6.23.0//examples/pages/examples/assets/ui-library/icons-css/poi.css);
+
+@import '~bootstrap/scss/bootstrap';
+
+$turchese: #0FA3B1;
+$azzurro: #B5E2FA;
+$sabbia: #EDDEA4;
+$arancione: #F7A072;
+$biancosporco: #F9F7F3;
+ 
+.apartment-show {
+    .thumb-img-container {
+        height: 650px;
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit:fill;
+            display: block;
+            
+        }
+
+    }
+}
+
+.user-dashboard{
+    .background-image-profile{
+        background-color: $turchese;
+    }
+
+    .message-span{
+        top:15px;
+        right:15px;
+    }
+
+    .container-account-card{
+        position: sticky;
+        top:200px;
+        z-index: 1300;
+    }
+}
+.go_back{
+    a{
+        color:$turchese;
+        font-size: 16px;
+    }
+}
+
+.apartment-image {
+    height: 60vh;
+    padding: 1rem 0;
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+}
+
+//Usability
+.z-index2000{
+    z-index: 2000;
+}
+.flex-basis20{
+    flex-basis: 20%;
+}
+
+.my-btn-turchese{
+    background-color: $turchese;
+    color: white;
+    &:hover{
+        background-color: $azzurro;
+    }
+}
+
+.my-btn-sabbia{
+    background-color: $sabbia;
+    
+    &:hover{
+        border-color: $sabbia;
+    }
+}
+
+.my-btn-orange{
+    background-color: $arancione;
+    color: white;
+
+    &:hover{
+        background-color: #b05b2d;
+    }
+}
+
+.bg-azzurro{
+    background-color: $azzurro;
+}
+
+.bg-turchese{
+    background-color: $turchese;
+}
+
+.bg-sabbia{
+    background-color: $biancosporco;
+}
+
+.wwas-not-validated{
+    background-color: red;
+}
+
+.text-turchese{
+    color: $turchese;
+}
+
+.img-container{
+    img {
+        display: block;
+        width: 100%;
+        height: 100;
+        object-fit: cover;
+    }
+}
