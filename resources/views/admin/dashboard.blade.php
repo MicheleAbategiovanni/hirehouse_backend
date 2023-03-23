@@ -31,6 +31,11 @@
                 <h5 class="fw-bold">I TUOI ANNUNCI:</h5>
 
                 <div class="row mt-4 gap-4">
+                    @if (Auth::user()->apartments()->count() === 0)
+                        <div class="alert alert-warning" role="alert">
+                            Ancora non hai pubblicato annunci, cosa aspetti? Pubblichiamone uno !
+                        </div>
+                    @endif
                     @foreach ($apartments as $apartment)
                     <div class="col-12 col-sm-5">
                         <div class="card p-0 positision-relative h-100"  >

@@ -192,8 +192,8 @@ class ApartmentController extends Controller
     }
 
     public function index(){
-        $sponsored = Apartment::whereHas('sponsors')->with("sponsors", "services" ,"rules")->get()->pluck("id")->toArray() ;
-        $apartment = Apartment::query();
+        $sponsored = Apartment::whereHas('sponsors')->with("sponsors", "services" ,"rules")->where("visibile", "=", true)->get()->pluck("id")->toArray() ;
+        $apartment = Apartment::query()->where("visibile", "=", true);
 
         if($sponsored!==[]){
             $apartments=$apartment->orderByRaw('FIELD (id, ' . implode(', ', $sponsored) . ') DESC')->with("rules","services","sponsors")->get()->toArray();        
